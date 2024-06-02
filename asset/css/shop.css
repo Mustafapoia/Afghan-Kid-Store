@@ -1,0 +1,190 @@
+
+body{
+  background-color:lightgrey;
+}
+.hero-section_shop {
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    /* height: 130vh; */
+    align-items: center;
+    margin-bottom: 3em;
+    
+  }
+  .hero-section_shop h1{
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-size: 3em;
+
+  }
+
+  
+  .hero-section_shop #title-produact1 , #title-produact2 ,#title-produact3 ,#title-produact4{
+    
+    background-image: linear-gradient(rgba(0, 0 ,0 ,0.6),rgba(0,0,0,0.6)),url(/asset/photo/boy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+    
+  }
+  
+  .hero-section_shop #title-produact2{
+    background-image: linear-gradient(rgba(0, 0 ,0 ,0.6),rgba(0,0,0,0.6)),url(/asset/photo/g.jpg);
+  }
+  .hero-section_shop #title-produact3{
+    background-image: linear-gradient(rgba(0, 0 ,0 ,0.6),rgba(0,0,0,0.6)),url(/asset//photo/kid\ \(13\).jpg);
+  }
+  .hero-section_shop #title-produact4{
+    background-image: linear-gradient(rgba(0, 0 ,0 ,0.6),rgba(0,0,0,0.6)),url(/asset/photo/kid\ \(1\).jpg);
+  }
+
+  .hero-section_shop #seemor{
+    height: 6vh;
+    width: 15vw;
+    background-color:#254441;
+    color: white;
+    text-align: center;
+    /* padding: 0.5em; */
+    text-decoration: none;
+    font-size: 1.6em;
+    margin-left: 77%;
+    border-radius: 0.4em;
+    
+  }
+  .hero-section_shop #seemor:hover{
+    background-color: #b47575;
+    color: white;
+  }
+
+
+  .hero-section_shop .total-shop-cards{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 65vh;
+    align-items: center;
+    justify-content:space-evenly;
+ 
+    
+    margin-top: 3em;
+    
+   
+    
+   
+  }
+  .hero-section_shop .total-shop-cards .cards{
+    width: 20%;
+    height: 60vh;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
+    background-color:rgb(224, 162, 103);
+    border-radius: 0.2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+    
+  }
+  .hero-section_shop .total-shop-cards .cards:hover{
+    box-shadow: 0 0 0.8em 0.4em gray; 
+    
+  }
+
+  .hero-section_shop .cards img{
+    width: 100%;
+    height: 40vh;
+    transition: all 1s;
+    display: block;
+    transition: opacity 1s ease-in-out;
+    border-radius: 0.2em;
+    
+
+  }
+  /* .hero-section .cards img:hover{ 
+    
+
+  } */
+  .hero-section_shop .cards .abc{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 1em;
+   
+    
+  }
+  .hero-section_shop .cards .abc:hover{
+    opacity: 1;
+  }
+  .hero-section_shop .cards .abc  #w {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    border-radius: 0.2em;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 70%;
+    height: 8vh;
+    width: 60%; 
+  }
+  .hero-section_shop .cards .abc  #w a{
+    font-size: 2em;
+    color:lightgray;
+   
+
+  }
+  /* .hero-section .cards .abc  #w #a{
+    color:lightgray; */
+    
+  
+  .hero-section_shop .cards .abc  #w #a:focus{
+    color: red;
+    
+  }
+
+  .hero-section_shop .cards .content{
+    width: 100%;
+    height: 20vh;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform:capitalize; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+   
+    
+    
+    
+
+    
+  }
+  .hero-section_shop .cards .content h3{
+    
+    color:white
+    
+  }
+  
+  .hero-section_shop .cards .content h4{
+    
+    color: red;
+    /* margin-top: 1em; */
+    font-size: 1.5em;
+  }

@@ -1,0 +1,387 @@
+
+
+  header {
+    position: relative;
+    height: 7vh;
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #language {
+    width: 10vw;
+    position: relative;
+    left: 3%;
+    display: flex;
+    justify-content: start;
+  }
+  #language select {
+    width: 100%;
+    height: 4vh;
+    color: white;
+    background-color: #aed6be;
+    border: 0;
+    outline: none;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #0ac756;
+  }
+  
+  #language select option {
+    color: white;
+    background-color: #067834;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+  }
+  #farsi {
+    direction: rtl;
+  }
+  
+  /*Sign Up and Log In Style*/
+  #login {
+    position: relative;
+    right: 3%;
+    width: 20vw;
+    display: flex;
+    justify-content: end;
+  }
+  @media only screen and (max-width: 700px) {
+    #language {
+      width: 20vw;
+    }
+    #login {
+      width: 45vw;
+    }
+  }
+  #login button {
+    width: 100%;
+    height: 4vh;
+    background-color: #aed6be;
+    border: 0;
+    box-shadow: 0 0 2px #0ac756;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  #login button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+  }
+  
+  
+  .heading-section {
+    background-image: url(../photo/kid\ \(2\).jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+  
+  .heading-section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .heading-section h1 {
+    font-size: 4em;
+    color: #024240;
+    margin-bottom: 0.2em;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    text-shadow: 0px 0px 10px #e8e538;
+  }
+  .heading-section h1:hover {
+    -webkit-text-stroke: 2px #301515;
+    color: transparent;
+  }
+  
+  .heading-section div input {
+    background-color: none;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    margin-right: 0%;
+    width: 30vw;
+    height: 6.5vh;
+    font-size: 2em;
+    
+  }
+  
+  .heading-section div a {
+    height: 6.5vh;
+    width: 6vw;
+    background-color: lightgray;
+    border-bottom-right-radius: 0.1em;
+    border-top-right-radius: 0.3em;
+    margin-top: 4vh;
+    text-align: center;
+    justify-content: center;
+    border-bottom-right-radius: 0.3em;
+    text-decoration: none;
+    padding-top: 2%;
+    font-size: 1.2em;
+    
+  }
+  
+  
+  .hero-section {
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    /* height: 70vh; */
+    background-color:lightgrey;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .hero-section h1{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 1.5em;
+  }
+  .hero-section .total-cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+   
+  }
+  .hero-section .total-cards .cards{
+    width: 20%;
+    height: 60vh;
+    overflow: hidden;
+    padding: 2em;
+    transition: all 1s;
+   
+  
+  
+  }
+  .hero-section .cards a img{
+    border-radius:50%;
+    width: 100%;
+    height: 40vh;
+    box-shadow: 0 0 0.6em 0.2em gray; 
+  }
+  .hero-section .cards:hover{
+    transform: scale(1.06);
+  }
+  .hero-section .cards .content{
+    background-color: #024240;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase; 
+    font-size: 1em;
+    border-radius: 1.5em;
+  }
+  .hero-section .cards h3{
+    margin-bottom: 0.3em;
+    text-align: center;
+    color: white;
+    padding: 0.4em;
+    
+  }
+  
+  #popular-item{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../photo/kid\ \(9\).jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+  }
+  #popular-item h1{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0.5em;
+  
+  }
+  
+  #popular-item #wrapper{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-content: center;
+    padding:0 1.3em;
+   
+    
+  
+   
+    
+  }
+  #popular-item #wrapper .popular-item-parts{
+    width: 30%;
+    
+    
+  
+    
+  }
+  #popular-item #wrapper .popular-item-parts img{
+    width: 50%;
+    height: 40vh;
+    border-radius: 1em;
+    
+  
+  }
+  #popular-item #wrapper .popular-item-parts h3{
+    color: white;
+    font-size: 1.8em;
+    margin: 0.5em 0;
+    text-transform: capitalize;
+  }
+  #popular-item #wrapper .popular-item-parts p{
+    color: rgb(218, 209, 209);
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    text-align: justify;
+    
+    
+  
+  }
+  #popular-item #wrapper .popular-item-parts .mybtns{
+    text-decoration: none;
+    background-color: #254441;
+    padding: 0.6em 1.5em;
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+    
+  
+  }
+  #popular-item #wrapper .popular-item-parts .mybtns:hover{
+    text-decoration: underline;
+  }
+  .testimonial-section{
+    background-color:lightgrey;
+    /* text-align: center; */
+    
+  
+  }
+  .testimonial-section h1{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 0.7em;
+  }
+  
+  .testimonial-section #testimonial-section-wrapper{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center ; 
+    justify-content: center; 
+    text-align: center;
+    
+  }
+  .testimonial-section #testimonial-section-wrapper .testimonial-cards{
+    width: 20%;
+    height: 60vh;
+    background-color: #aed6be;
+    border-radius: 3%;
+    box-shadow:  0 0 0.6em 0.2em rgb(151, 149, 76); 
+    margin-right: 1.1em;
+    
+  
+  }
+  .testimonial-section #testimonial-section-wrapper .testimonial-cards .user-info{
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .testimonial-section #testimonial-section-wrapper .testimonial-cards .user-info img{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;  
+    margin-left: 1em;
+  }
+  .testimonial-section #testimonial-section-wrapper .testimonial-cards .user-info h3{
+    margin-left: 0.5em;
+    font-size: 1.3em;
+  }
+  
+  .testimonial-section #testimonial-section-wrapper .testimonial-cards p{
+    text-align:justify;
+    padding: 1em;
+    font-size: 1.2em;
+  } 
+  .testimonial-section #testimonial-section-wrapper .testimonial-cards a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.4em 4.3em;
+    margin-top: 0.5em;
+    background-color: #024240;
+    color: white;
+    border-radius: 0.5em;
+     
+  }
+  
+  #admission-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../photo/kid\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 5em 0;
+    text-align: center;
+  }
+  #admission-section #admission-section-content{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 70%;
+    margin: 0 auto;
+    padding: 3em 1.4em;
+  
+  }
+  #admission-section #admission-section-content p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: lowercase;
+  }
+  #admission-section #admission-section-content a{
+    padding: 0.6em 1.7em;
+    background-color: #254441;
+    border-radius: 3%;
+    color: white;
+    display: inline-block;
+    margin-top: 1.5em;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+  
+  }
+  #admission-section #admission-section-content a:hover{
+    background-color: #343377;
+    color: red;
+  }
+  
+  
+  
+  
+  

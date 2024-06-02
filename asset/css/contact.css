@@ -1,0 +1,78 @@
+
+#contact-us-page-container{
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../photo/boy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#contact-us-page-container h1{
+  color: white;
+  padding-top: 40px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-size: 2.2em;
+}
+#contact-us-page-container p{
+  color: white;
+  
+}
+#contact-us-page-container #wrapper{
+  width: 70%;
+  height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact-us-page-container #wrapper #right-sidebar .right-sidebar-content{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#contact-us-page-container #wrapper #right-sidebar .right-sidebar-content i{
+  font-size: 2.6em;
+  color: bisque;
+}
+#contact-us-page-container #wrapper #right-sidebar .right-sidebar-content .child-wrapper{
+  margin-left: 20px;
+}
+.child-wrapper-title{
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  margin-bottom: 3px;
+}
+
+form{
+  width: 350px;
+  background-color: aliceblue ;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;*/
+  align-items: center;  
+}
+form h3{
+  padding-top: 10px;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+form input , form textarea{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  width: 300px;
+}
+form input[type="submit"] {
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #254441;
+  color: white;
+}
+
+
